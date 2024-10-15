@@ -80,11 +80,44 @@ dev_dependencies:
 
 # The following section is specific to Flutter packages.
 flutter:
+      fonts:
+      - family: MyFlutterApp
+        fonts:
+          - asset: fonts/MyFlutterApp.ttf
+      - family: CategoryIcons
+        fonts:
+          - asset: fonts/CategoryIcons.ttf
+      - family: MarkPronormal400
+        fonts:
+          - asset: fonts/MARKPRO.OTF
+            weight: 400
+      - family: MarkPronormal500
+        fonts:
+          - asset: fonts/MARKPRO.OTF
+            weight: 500
+      - family: MarkPronormal700
+        fonts:
+          - asset: fonts/MARKPRO.OTF
+            weight: 700
+      - family: MarkPronormal800
+        fonts:
+          - asset: fonts/MARKPRO.OTF
+            weight: 800
+      - family: MarkProbold
+        fonts:
+          - asset: fonts/MARKPRO-BOLD.OTF
 
+      - family: SFPro
+        fonts:
+          - asset: fonts/SF-Pro-Display-Regular.otf
+            weight: 400
+      assets:
+      - assets/
+      - assets/icons_png/
+uses-material-design: true
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
   # the material Icons class.
-  uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
 
